@@ -1,0 +1,39 @@
+.jumbotron {
+	background: url('IdentityV1.png');
+	padding: 50px;
+	color: red;
+}
+
+.jumbotron h1 {
+	color: red;
+}
+
+#col1{
+	background-color: lightblue;
+}
+
+#col2{
+	background-color: lightpink;
+}
+
+#col3{
+	background-color: gray;
+}
+
+.col-sm-4 img {
+	width: 100%;
+}
+
+.item img{
+	width: 50%;
+	margin-left: 25%;
+}
+
+#messageform{
+	padding: 30px 8%;
+}
+
+textarea{
+	resize: none;
+	margin-bottom: 20px;
+}
