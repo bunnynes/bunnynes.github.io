@@ -1,3 +1,4 @@
+
 function slideDown() {
 	$("#div1").slideToggle();
 	$("#div1").html("<h1>ADD ME: xBunnyneh</h1>");
@@ -29,4 +30,10 @@ var b = 8;
 function addsquares(a,b) {
 	alert(a*a+b*b);
 }
-addsquares(a,b);*/
+=======
+function slideDown() {
+	$("#div1").slideToggle();
+	$("#div1").html("<h1>ADD ME: xBunnyneh</h1>");
+	$("#div1").css("color", "#e71899");
+}
+*/
