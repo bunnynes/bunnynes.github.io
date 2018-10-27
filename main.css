@@ -1,8 +1,15 @@
+body{
+	font-family: 'Marck Script', cursive;
+}
+nav{
+	font-family: 'Rochester', cursive;
+}
 
 .jumbotron {
 	background: url('IdentityV1.png');
 	padding: 50px;
 	color: red;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 
 .jumbotron h1 {
@@ -28,6 +35,7 @@
 .item img{
 	width: 50%;
 	margin-left: 25%;
+	font-family: 'Permanent Marker', cursive;
 }
 
 #messageform{
@@ -36,13 +44,19 @@
 	color: lavender;
 }
 
+#name {
+	background-color: navy;
+}
+
 textarea{
 	resize: none;
 	margin-bottom: 20px;
+	background-color: navy;
 }
 #Submit{
 	transition-duration: 0.3s;
 	display: block;
+	font-family: 'Rochester', cursive;
 }
 #Submit:hover {
 	background-color: purple;
@@ -51,6 +65,7 @@ textarea{
 }
 #Click{
 	transition-duration: 0.3
+	font-family: 'Rochester', cursive;
 }
 #Click:hover {
 	background-color: beige;
