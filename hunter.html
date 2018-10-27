@@ -20,9 +20,9 @@
       <a class="navbar-brand" href="#">Identity V Info</a>
     </div>
     <ul class="nav navbar-nav navbar-right">
-      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="survivor.html">Survivor</a></li>
-      <li><a href="hunter.html">Hunters</a></li>
+      <li class="active"><a href="hunter.html">Hunters</a></li>
       <li><a href="mark.html">Marks</a></li>
     </ul>
   	</div>
@@ -32,6 +32,11 @@
 			<h1>IDV</h1>
 			<img src="IdentityV1.jpg">
 		</div>
+
+		<div>
+			<h3>Hunters:</h3>
+		</div>
+
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		  <!-- Indicators -->
 		  <ol class="carousel-indicators">
@@ -43,15 +48,33 @@
 		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner">
 		    <div class="item active">
-		      <img src="hunterorsurvivor.jpg" alt="Survive or Hunt?">
+		    	<h3>Hell Ember</h3>
+		      <img src="IDVHellEmber.jpg" alt="Hell Ember">
 		    </div>
 
 		    <div class="item">
-		      <img src="hunters.jpg" alt="Be a Hunter">
+		    	<h3>Smiley Face The Clown</h3>
+		      <img src="IDVSmileyFace.jpg" alt="Smiley Face">
+		    </div>
+
+			<div class="item">
+				<h3>Game Keeper</h3>
+		    	<img src="IDVGamekeeper.jpg" alt="Gamekeeper">
 		    </div>
 
 		    <div class="item">
-		      <img src="Survivors.jpg" alt="Be a Survivor">
+		    	<h3>Jack The Ripper</h3>
+		    	<img src="IDVRipper.jpg" alt="Jack The Ripper">
+		    </div>
+
+		    <div class="item">
+		    	<h3>Geisha</h3>
+		    	<img src="IDVGeisha.jpg" alt="Geisha">
+		    </div>
+
+		    <div class="item">
+		    	<h3>Feaster</h3>
+		      <img src="IDVFeaster.jpg" alt="Feaster">
 		    </div>
 		  </div>
 
@@ -65,23 +88,26 @@
 		    <span class="sr-only">Next</span>
 		  </a>
 		</div>
+			
+		<div>
+			<h3>My Top 3</h3>
+		</div>
 
-			<button onclick="slideDown()" class="btn btn-warning" id="Click"> Click Me!!!</button>
-			<div id="div1">
-				<h1>
-					Add me: PC(ios): xBuneh, IOS: xBunnyneh, Android: xPhantomeh
-				</h1>
+		<div class="row">
+			<div class="col-sm-4" id="col1">
+				<h4>The Geisha</h4>
+				<img src="IDVGeisha.jpg" alt="Geisha">
+			</div>
+			<div class="col-sm-4" id="col2">
+				<h4>The Feaster</h4>
+				<img src="IDVFeaster.jpg" alt="Feaster">
+			</div>
+			<div class="col-sm-4"id="col3">
+				<h4>The Ripper</h4>
+				<img src="IDVRipper.jpg" alt="Jack The Ripper">
 			</div>
 
-			<div id="messageform">
-				<h4>Who do you like to play as?</h4>
-				<p>Username</p>
-				<input id="name" type="text" name="form-control">
-				<p>Hunter or Survivor?:</p>
-				<textarea id="message" rows="6" class="form control"> </textarea>
-				<button class="btn btn-default" onclick="validate()" id="Submit"> Submit </button>
-				<p id="formerrors"></p>
-			</div>
+
 		</div>
 	</body>
 </html>

@@ -32,9 +32,40 @@
 
 #messageform{
 	padding: 30px 8%;
+	background: linear-gradient(45deg, #717171, #717171, #f3cd4b, #f55096, #f04a5f);
+	color: lavender;
 }
 
 textarea{
 	resize: none;
 	margin-bottom: 20px;
+}
+#Submit{
+	transition-duration: 0.3s;
+	display: block;
+}
+#Submit:hover {
+	background-color: purple;
+	color: silver; 
+	transform: scale(1.5) rotateX(360deg);
+}
+#Click{
+	transition-duration: 0.3
+}
+#Click:hover {
+	background-color: beige;
+	color: teal;
+	transform: scale(2);
+}
+
+@media only screen and (max-width: 768px){
+	.navbar{
+		background-color: tan;
+	}
+	h1{
+		font-size: 20px;
+	}
+	.item img{
+		width: 100%;
+	}
 }
